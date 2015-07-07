@@ -1,0 +1,22 @@
+{
+  "name": "emiel/composer_test1",
+
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "emiel/composer_test2",
+        "version": "dev-master",
+        "source": {
+          "url": "git@192.168.0.9:root/emiel-summer-2015.git",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    }
+  ],
+
+  "require": {
+      "emiel/composer_test2": "dev-master"
+  }
+}

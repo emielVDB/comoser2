@@ -1,0 +1,6 @@
+{
+  "name": "emiel/composer_test2",
+  "require": {
+    "monolog/monolog": "1.0.*"
+  }
+}
