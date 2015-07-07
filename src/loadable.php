@@ -13,7 +13,10 @@ class loadable
 
     function __construct()
     {
+        require 'vendor/autoload.php';
 
+        $printer = new emiel\printer\Printer();
+        $printer->echoIt();
     }
 
     function echoIt(){
