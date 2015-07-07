@@ -1,0 +1,19 @@
+{
+  "name": "emiel/composer_test2",
+  "repositories": [
+    {
+      "url": "git@github.com:emielVDB/second_repo.git",
+      "type": "git",
+      "reference": "origin/master"
+    }
+  ],
+
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "emiel/composer_deeper": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {"emiel\\": "src/"}
+  }
+}
