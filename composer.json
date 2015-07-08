@@ -2,9 +2,8 @@
   "name": "emiel/composer_test2",
   "repositories": [
     {
-      "url": "git@github.com:emielVDB/second_repo.git",
-      "type": "git",
-      "reference": "origin/master"
+      "type": "composer",
+      "url": "http://php_server/composer_server/web/"
     }
   ],
 
